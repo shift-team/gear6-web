@@ -22,7 +22,7 @@ class App extends Component {
         <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
           <div className="col-md-5 p-lg-5 mx-auto my-5">
             <h1 className="display-4 font-weight-normal">
-              Gear<span style={{ color: green }}>6</span>
+              Gear<span style={{ color: 'green', }}>6</span>
             </h1>
             <p className="font-weight-normal">
               Automotive statistics analysis and performance tracking, straight
@@ -44,7 +44,7 @@ class App extends Component {
             </div>
             <div
               className="bg-light box-shadow mx-auto"
-              style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"
+              style={{width: '80%', height: '300px', borderRadius: '21px 21px 0 0'}}
             />
           </div>
 
