@@ -1,0 +1,65 @@
+@import "~bootstrap/scss/bootstrap";
+
+.gear6-nav
+  @extend .sticky-top
+  @extend .py-1
+  background-color: rgba(0, 0, 0, .85)
+  -webkit-backdrop-filter: saturate(180%) blur(20px)
+  backdrop-filter: saturate(180%) blur(20px)
+  div
+    @extend .container
+    @extend .d-flex
+    @extend .flex-column
+    @extend .flex-md-row
+    @extend .justify-content-between
+  a
+    @extend .py-2
+    @extend .d-none
+    @extend .d-md-inline-block
+    color: #999;
+    transition: ease-in-out color .15s;
+  a:hover
+    color: #fff
+    text-decoration: none
+
+.intro-box
+  @extend .position-relative
+  @extend .overflow-hidden
+  @extend .p-3
+  @extend .p-md-5
+  @extend .m-md-3
+  @extend .text-center
+  @extend .bg-light
+  div
+    @extend .col-md-5
+    @extend .p-lg-5
+    @extend .mx-auto
+    @extend .my-5
+  h1
+    @extend .display-4
+    @extend .font-weight-normal
+  p
+    @extend .font-weight-normal
+  a
+    @extend .btn
+    @extend .btn-outline-success
+
+.feature-box
+  @extend .d-md-flex
+  @extend .w-100
+  @extend .my-md-3
+  @extend .pl-md-3
+  flex: 1
+  div
+    @extend .mr-md-3
+    @extend .pt-3
+    @extend .px-3
+    @extend .pt-md-5
+    @extend .px-md-5
+    @extend .text-center
+    @extend .overflow-hidden
+    div
+      @extend .my-3
+      @extend .p-3
+      p
+        @extend .lead
